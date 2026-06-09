@@ -18,13 +18,11 @@ public class CarGenerator : MonoBehaviour
     void Start()
     {
         sprite_index = 0;
-
     }
 
     // Update is called once per frame
     void Update()
-    {
-        
+    { 
         this.delta += Time.deltaTime;
         this.a += Time.deltaTime;
 
@@ -76,4 +74,3 @@ public class CarGenerator : MonoBehaviour
         }
     }
 }
-
