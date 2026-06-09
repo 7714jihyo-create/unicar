@@ -11,7 +11,7 @@ public class CarController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        print("trigger ¸ðµå");
+        print("trigger ëª¨ë“œ");
         GetComponent<AudioSource>().Play();
 
         x = GameObject.Find("GameDirector");
