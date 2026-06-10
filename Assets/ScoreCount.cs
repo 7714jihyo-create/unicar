@@ -19,6 +19,7 @@ public class ScoreCount : MonoBehaviour
     {
         score += Time.deltaTime;
         timeText.text = "score: "+score.ToString("F0");
+        // 초당 1점씩 화면에 점수 표시
     }
 
 
